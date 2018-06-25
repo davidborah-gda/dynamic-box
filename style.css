@@ -1,0 +1,24 @@
+.color-box {
+    height: 300px;
+    width: 400px;
+    background: red;
+    position: relative;
+}
+
+.buttons {
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.back {
+    display: inline-block;
+    height: 30px;
+    width: 180px;
+}
+
+.forward {
+    display: inline-block;
+    height: 30px;
+    width: 180px;  
+}
