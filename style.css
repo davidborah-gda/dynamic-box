@@ -1,34 +1,32 @@
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+    background: skyblue;
+}
+
 .color-box {
-    height: 300px;
-    width: 400px;
+    width: 100%;
+    height: 50%;
     background: red;
     position: relative;
 }
 
 .buttons {
-    display: inline-block;
-    position: relative;
-    left: 20px;
-    top: 10px;
+    display: flex;
+    justify-content: space-around;    
 }
 
-.back {
+.back, .forward {
     display: inline-block;
     height: 30px;
-    width: 180px;
+    width: 170px;
 }
 
-.forward {
-    display: inline-block;
-    height: 30px;
-    width: 180px;  
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-.center {
-  width: 100%;
+@media (max-width: 400px) {
+    .buttons {
+        flex-direction: column;
+    }
 }
