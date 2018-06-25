@@ -29,19 +29,8 @@ const App = {
 
     },
 
-   
     render(){
-
-     this.display.style.backgroundColor = this.colors[this.count];
-    
-
-     
-
-
-
-    //  else {
-    //      console.log('Do you need some help?')
-    //  }
+      this.display.style.backgroundColor = this.colors[this.count];
 
     }
   };
